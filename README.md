@@ -6,6 +6,14 @@ Calculates the total size of the folder specified as well as all sub folders rec
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
+### Prerequisites
+
+Install the Azure Resource Manager modules from the PowerShell Gallery
+```
+Install-Module -Name AzureRM -AllowClobber
+```
+
+
 Login-AzureRMAccount
 $dataLakeStoreAccount = "whatever"
 $DataLakeFolderPath = "/folder"
